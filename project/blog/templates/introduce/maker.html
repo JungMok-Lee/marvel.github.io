@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/introduce/maker_1.css' %}">
+<br>
+<br>
+<div class="name">이 페이지는 이정목에 의해 제작되었습니다.</div>
+<img src="{% static 'images/introduce/mecrossfingers.png' %}" alt="mecrossfingers.png" class="mypicture">
+<div class="about">
+    <div class="explain">
+        <p>마블을 좋아합니다. 학교에 가지 못한 20학번입니다. 헌내기가 되어가고 있습니다.</p>
+    </div>
+    <div class="call">
+        <a href="mailto:gracelee1020@unist.ac.kr?subject=3000만큼사랑해에서옴">
+            <img src="{% static 'images/introduce/mail2.png' %}" class="mail"> 
+        </a>
+        <a href="https://www.facebook.com/mokimoki1104">
+            <img src="{% static 'images/introduce/facebook.ico' %}" class="facebook">
+        </a>
+        <a href="https://instagram.com/mokmoki__">
+            <img src="{% static 'images/introduce/instagram.jpg' %}" class="instagram">
+        </a>
+        <a href="https://jungmok-lee.github.io/">
+            <img src="{% static 'images/introduce/me.png' %}" class="me">
+        </a>
+        <p class="little">순서대로 메일, 페이스북, 인스타그램, 제 자기소개 페이지입니다.</p>
+    </div>
+</div>
+<br>
+{% endblock %}

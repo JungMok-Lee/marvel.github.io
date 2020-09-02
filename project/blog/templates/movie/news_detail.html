@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/movie/news_detail.css' %}">
+<div class="detail">
+    <h1>{{news.title}}</h1>
+    <p>{{news.pub_date}}</p>
+    <p>{{news.body}}</p>
+</div>
+{% endblock %}

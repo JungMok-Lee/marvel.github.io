@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/character/wintersoldier_1.css' %}">
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <img src="{% static 'images/wintersoldier2.jpg' %}" class="wintersoldierpic" alt="wintersoldier">
+    <div class="about">
+        <p>이름 : James Buchanan Barnes</p>
+        <p>활동명 : Winter Soldier</p>
+        <p>나이 : 106, Captain America와 오랜 친구</p>
+        <p>생일 : 1917년 3월 10일</p>
+        <p class='explain'>~그냥 내가 하는 간단한 설명~</p>
+        <p class='tmi'>
+            열차에서 한쪽 팔을 잃는데, 하이드라가 데리고 가서 팔을 달아주고 살상무기로 키운다. 이 과정에서 강제로 혈청을 
+            맞는데 이 혈청은 캡틴이 맞은 혈청보다 성능이 약해서 부작용도 많다. 그래서 캡틴이 더 잘 싸운다.
+            세뇌코드를 부르면 복종상태로 바뀌고 이 상태에서 정신을 되찾으면 
+            brainwashing(뇌 세척, 내 마음이 아프다)을 당해서 내 마음이 많이 아프다.
+            스티브가 지금처럼 커지기 전에 유일하게 놀아주던 착한 친구다.
+            복종상태에서 명령으로 아이언맨의 부모님을 죽였다. 이것 때문에 시빌워에서 아이언맨이랑 캡틴이랑 죽어라 싸운다.
+            시빌워 이후로 분량을 잃었으며 마스크를 쓰면 정말 잘생겼다 마블은 뭔가를 많이 아는 것 같다.
+        </p>
+        <div class="code">
+            <h2 class='codetitle'>윈터솔져 세뇌코드: </h2>
+            <p>Longing  갈망</p>
+            <p>Rusted 부식</p>
+            <p>Seventeen 열일곱</p>
+            <p>Daybreak 새벽</p>
+            <p>Furnace 용광로</p>
+            <p>Nine 아홉</p>
+            <p>Benign 상냥</p>
+            <p>Homecoming 귀향</p>
+            <p>One 하나</p>
+            <p>Freight Car 화물칸</p>
+            <p>Solider 제군</p>
+            <p>I will comply. 명령에따른다</p>
+        </div>
+
+        <div class='arm'>
+            윈터솔져의 팔은 히드라가 달아준 팔로 계속 잘 쓰다가 시빌워 때 아이언맨이 잘라버린다. 마음이 너무 아프다.
+            그래서 이후에 와칸다 왕자(블랙팬서)가 자기 나라에서 비브라늄 팔을 만들어서 달아준다. 버키는 팔을 달자마자 
+            자기는 코드만 읽어주면 제정신이 아니라면서 자기가 직접 수면 상태에 들어간다. 나중에 어벤져스:인피니티 워에서 
+            싸우려고 깨어난다.
+        </div>
+    </div>
+</body>
+</html>
+
+{% endblock %}

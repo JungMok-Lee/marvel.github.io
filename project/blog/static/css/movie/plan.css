@@ -1,0 +1,9 @@
+.movie{
+    text-align:center;
+    font-size: 25px;
+
+}
+
+.blackwidowpic, .iternalspic, .shangchipic, .morbiuspic, .venom2pic, .spidermanpic, .thorpic{
+    width: 50vw; 
+}

@@ -1,0 +1,20 @@
+.wintersoldierpic{
+    width:100vw;
+}
+
+.about{
+    text-align: center;
+    font-size: 20px;
+}
+
+.explain{
+    font-size:22px;
+}
+
+.codetitle{
+    text-decoration: underline;
+}
+
+.tmi, .arm{
+    word-spacing: 2px;
+}

@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/character/blackwidow.css' %}">
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <img src="{% static 'images/blackwidow.jpg' %}" class="blackwidowpic" alt="blackwidow">
+    <div class="about">
+        <p>이름 : Natasha Romanoff</p>
+        <p>활동명 : Black Widow</p>
+        <p>나이 : 38</p>
+        <p>생일 : 1984년 11월 22일</p>
+        <p>신체 능력 : 굉장히 잘싸움</p>
+        <p>배우 : Scarlett Johansson</p>
+    </div>
+</body>
+</html>
+
+{% endblock %}

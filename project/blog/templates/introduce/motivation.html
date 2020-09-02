@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/introduce/motivation.css' %}">
+<br>
+<div class="reason">
+    <p>나는 왜 마블일기를 만들게 되었는가?</p>
+    <img src="{% static 'images/introduce/thinkperson.jpg' %}" alt="thinkperson" class="thinkperson">
+    <br>
+    <p>프로젝트를 하나 만들어 볼까? 라는 선배님의 말에 좋아요! 라고 대답했습니다.
+        만들고 싶다고 해놓고 아무 생각이 없었던 제게 물으셨습니다.
+    </p>
+    <div class="talk">
+        <h5>"좋아하는 영화 있니?"</h5>
+        <h5>"중학교 때부터 저는 마블을 좋아했어요!"</h5>
+        <h5>"그럼 마블일기를 만들어 보자꾸나."</h5>
+    </div>
+    <p>네 그렇게 시작된 프로젝트임니다. 부족해도 잘 봐주시면 감사드리겠습니다.</p>
+</div>
+{% endblock %}

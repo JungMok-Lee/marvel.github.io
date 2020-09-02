@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/character/captain.css' %}">
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <img src="{% static 'images/captainamerica.jpg' %}" class="captainpic" alt="captainamerica">
+    <div class="about">
+        <p>이름 : Steve Rogers</p>
+        <p>활동명 : Captain America</p>
+        <p>나이 : 105</p>
+        <p>생일 : 1918년 7월 4일</p>
+        <p>국적 : 미국</p>
+        <p>아내 : Peggy Carter</p>
+        <p>명대사 : I can do this all day.</p>
+        <p>신체 능력 : 머 맞고 짱세져서 세지자마자 히드라 부수고다님 왕존멋</p>
+        <p>배우 : Chris Evans</p>
+    </div>
+</body>
+</html>
+
+{% endblock %}

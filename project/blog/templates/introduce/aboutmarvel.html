@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/introduce/aboutmarvel_1.css' %}">
+<img src="{% static 'images/introduce/marvelstudio2.png' %}" class='marvelstudio' alt='marvelstudio'>
+<div class="any">
+    <div class="marvel">
+        -Logo of marvel studio
+    </div>
+    <br>
+    <div class="movies">
+        <h4>마블이 만들어낸 역대급 영화들</h4>
+        <div class="ironman">
+            <img src="{% static 'images/introduce/ironman1poster.jpg' %}" alt="ironman1poster" class="ironman1poster">
+            <h5>아이언맨 1</h5>
+            <p>전설의 시작. 지금의 마블을 있게 해준 영화.</p>
+        </div>
+        <div class="captainamerica">
+            <img src="{% static 'images/introduce/captainamerica1poster.jpg' %}" alt="captainamerica1poster" class="captainamerica1poster">
+            <h5>캡틴아메리카 - 퍼스트 어벤져</h5>
+            <p>마블 세계관의 시작. 이미 몸이 좋은 캡틴(역할의 크리스 에반스)를 빈약하게 보이게 하기 위해서 CG팀이 죽어나갔다는 이야기가 있다. 마블 CG팀은 전설이다..</p>
+        </div>
+        <div class="hulk">
+            <img src="{% static 'images/introduce/hulk1poster.jpg' %}" alt="hulk1poster" class="hulk1poster">
+            <h5>헐크</h5>
+            <p>판권 문제로 속을 썩였으나 결국 돌아온 헐크. </p>
+        </div>
+        <div class="thor">
+            <img src="{% static 'images/introduce/thor1poster.jpg' %}" alt="thor1poster" class="thor1poster">
+            <h5>토르 - 천둥의 신</h5>
+            <p>마블 코믹스의 슈퍼 히어로 시리즈를 실사화한 영화이다. 2011년 4월 28일 개봉.</p>
+        </div>
+        <div class="avengers">
+            <img src="{% static 'images/introduce/avengers1poster.jpg' %}" alt="avengers1poster" class="avengers1poster">
+            <h5>어벤져스 1</h5>
+            <p>앞에 나왔던 히어로들의 총집합. 한국에서도 굉장한 인기를 끌었다. 감독 조스 웨던. 2012년 4월 26일 국내 개봉.</p>
+        </div>
+        <div class="spiderman">
+            <img src="{% static 'images/introduce/spiderman1poster.jpg' %}" alt="spiderman1poster" class="spiderman1poster">
+            <h5>스파이더맨 - 홈커밍</h5>
+            <p>마블이 한창 힘들때 팔았던 스파이더맨 판권을 되찾게 되는데, 소니와 합작하여
+                스파이더맨:홈커밍을 만든다. 그렇기 때문에 우리가 잘 아는 어메이징 스파이더맨은
+                마블에서 만든 게 아니다. 이후 톰 홀랜드를 영업하면서 새로운 스파이더맨이 탄생하게 되었다. 이후 소니와의 판권 문제가 또 생기면서 스파이더맨의 영화 제작이 중단될 뻔 했으나, 스파이더맨 
+                역할을 맡은 톰 홀랜드가 중재 역할을 하고 팬들의 성원 또한 강해서 영화 제작이 다시 재개되었다.</p>
+        </div>
+        <div class="avengersendgame">
+            <img src="{% static 'images/introduce/avengersendgame.jpg' %}" alt="avengersendgameposter" class="avengersendgameposter">
+            <h5>어벤져스 1</h5>
+            <p>마블 세계관의 끝 이야기. 아이언맨의 죽음으로 이야기가 마무리된다. 앤서니 루소, 조 루소 형제가 감독을 맡았다. 2019년 4월 24일 국내 개봉. </p>
+        </div>
+        <p>출처: 마블 스튜디오 위키백과/나무위키</p>
+    </div>
+    <br><br>
+    <div class="people">
+        <h4>마블의 트레이드 마크인 사람들</h4>
+        <div class="kevin">
+            <img src="{% static 'images/introduce/kevin.jpg' %}" class="kevinpic">
+            <p>케빈 파이기(Kevin Feige). 마블 스튜디오의 사장이다. 마블 시네마틱 유니버스를 만들고 구체화시킨, 지금의 마블을 있게 해준 인물이다.</p>
+        </div>
+        <div class="rutho">
+            <img src="{% static 'images/introduce/rutho.jpg' %}" class="ruthopic">
+            <p>Russo Brothers로 유명하다. 안토니 루소(Anthony Russo), 조 루소(Joe Russo)</p>
+        </div>
+        <div class="stanlee">
+            <img src="{% static 'images/introduce/stanlee.jpg' %}" class="stanleepic">
+            <p>스탠 리(Stan Lee). 마블의 만화가이며 마블의 명예 회장이다. 영화 곳곳에 까메오로 출연하셨다. 2018년 11월 12일 사망하였다. 나도 많이 슬퍼했다.</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/movie/plan.css' %}">
+
+<div class="movie">
+    <div class="blackwidow">
+        <img src="{% static 'images/movie/blackwidow.jpg' %}" class="blackwidowpic">
+        <p>Black Widow 2020sus 11월 6일 예정(내 생일)</p>
+    </div>
+    <div class="iternals">
+        <img src="{% static 'images/movie/iternals.jpg' %}" class="iternalspic">
+        <p>Iternals 2021년 2월 12일 예정</p>
+    </div>
+    <div class="shangchi">
+        <img src="{% static 'images/movie/shangchi2.jpg' %}" class="shangchipic">
+        <p>Shang-Chi and the Legent of the Ten Rings 2021년 5월 7일 예정</p>
+    </div>
+    <div class="morbius">
+        <img src="{% static 'images/movie/morbius.jpg' %}" class="morbiuspic">
+        <p>morbius 2021년 3월 19일 예정</p>
+    </div>
+    <div class="venom2">
+        <img src="{% static 'images/movie/venom2.jpg' %}" class="venom2pic">
+        <p>Venom2 2021년 6월 25일 예정</p>
+    </div>
+    <div class="spiderman3">
+        <img src="{% static 'images/movie/spiderman.jpg' %}" class="spidermanpic">
+        <p>Spiderman: Homesick 2021년 11월 5일 예정</p>
+    </div>
+    <div class="thor">
+        <img src="{% static 'images/movie/thor.jpg' %}" class="thorpic">
+        <p>Thor: Love and Thunder 2022년 2월 11일 예정</p>
+    </div>
+    <p>출처: <a href="https://m.blog.naver.com/luckymasiwoo/221962745289">마시우가 영화 본다</a></p>
+</div>
+
+
+{% endblock %}

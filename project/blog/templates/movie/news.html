@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/movie/news.css' %}">
+<div class="news">
+    {% for news in news.all %}
+    <h2>{{news.title}}</h2>
+    <p>{{news.pub_date}}</p>
+    <p>{{news.summary}} <a href="{% url 'news_detail' news.id %}">more!</a></p>
+    <br>
+    {% endfor %}
+</div>
+{% endblock %}

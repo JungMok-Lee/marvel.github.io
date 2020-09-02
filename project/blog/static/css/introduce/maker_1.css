@@ -1,0 +1,42 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css); 
+.nanumgothic * { font-family: 'Nanum Gothic', sans-serif; }
+
+.name{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+}
+.mypicture{
+    display: block;
+    margin: auto;
+}
+
+.mail{
+    width: 50px;;
+}
+.facebook{
+    width:40px;
+}
+.instagram{
+    width:45px;
+}
+
+.me{
+    width:60px;
+}
+
+.call{
+    text-align: center;
+}
+
+.explain{
+    font-family: "Nanum Gothic", sans-serif;
+    text-align: center;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.little{
+    font-size: 10px;
+}

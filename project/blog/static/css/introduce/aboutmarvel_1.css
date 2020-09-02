@@ -1,0 +1,17 @@
+.any{
+    text-align: center;
+    margin-left:15vw;
+    margin-right: 15vw;
+}
+
+.marvelstudio{
+    width: 100vw;
+}
+
+.ironman1poster, .captainamerica1poster, .hulk1poster, .thor1poster, .avengers1poster, .spiderman1poster, .avengersendgameposter{
+    height:60vh;
+}
+
+.kevinpic, .ruthopic, .stanleepic{
+    height:50vh;
+}
